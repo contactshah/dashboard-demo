@@ -18,3 +18,7 @@ The application uses a couple of add-ons:
  * Vaadin Charts, AGPL/CVAL: https://vaadin.com/license/cval-2.0
  * Vaadin Calendar, Apache 2.0
  * CSSInject, Apache 2.0
+
+Gujarati practice
+-----------------
+After signing in, a new **Gujarati** view is available from the sidebar. It contains a few common phrases and uses the browser's speech synthesis to pronounce them in Gujarati when you click the buttons.
