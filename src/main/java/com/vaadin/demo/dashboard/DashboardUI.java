@@ -77,6 +77,7 @@ public class DashboardUI extends UI {
             put("/transactions", TransactionsView.class);
             put("/reports", ReportsView.class);
             put("/schedule", ScheduleView.class);
+            put("/gujarati", GujaratiView.class);
         }
     };
 
@@ -316,7 +317,7 @@ public class DashboardUI extends UI {
         menu.removeAllComponents();
 
         for (final String view : new String[] { "dashboard", "sales",
-                "transactions", "reports", "schedule" }) {
+                "transactions", "reports", "schedule", "gujarati" }) {
             Button b = new NativeButton(view.substring(0, 1).toUpperCase()
                     + view.substring(1).replace('-', ' '));
             b.addStyleName("icon-" + view);
